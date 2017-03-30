@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">安装包优化demo-子勰</string>
+
+    <string name="icon1_name">@string/fa_android</string>
+    <string name="icon2_name">@string/fa_google_plus</string>
+    <string name="icon3_name">@string/fa_apple</string>
+
+    <string name="intro_info">下方按钮即为字体生成，可以通过点击按钮查看字体的大小和颜色的变化</string>
+
+    <color name="icon_color_default">#1fa67a</color>
+    <color name="icon_color_1">#afa71a</color>
+    <color name="icon_color_2">#af17aa</color>
+
+    <dimen name="icon_size_default">20sp</dimen>
+
+</resources>
