@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-
 android {
 
     compileSdkVersion = rootProject.ext.compileSdkVersion
@@ -21,10 +20,12 @@ android {
     buildTypes {
         release {
             minifyEnabled = true
+            shrinkResources false
             proguardFiles './../proguard-rules.pro'
         }
         debug {
             minifyEnabled = false
+            shrinkResources false
         }
     }
 
@@ -41,6 +42,7 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:18.0.+'
+
 }
 repositories{
     flatDir{

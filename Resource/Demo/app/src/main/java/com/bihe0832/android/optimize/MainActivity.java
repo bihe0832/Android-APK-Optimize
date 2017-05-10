@@ -2,7 +2,6 @@ package com.bihe0832.android.optimize;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -35,7 +34,7 @@ public class MainActivity extends Activity {
 						icon1.setTextSize(getResources().getDimension(R.dimen.icon_size_default) * 2);
 						break;
 					case 2:
-						icon1.setTextColor(getResources().getColor(R.color.icon_color_2));
+						icon1.setTextColor(getResources().getColor(Res.color(getResources(),"icon_color_2",getPackageName())));
 						icon1.setTextSize(getResources().getDimension(R.dimen.icon_size_default) * 4);
 						break;
 				}

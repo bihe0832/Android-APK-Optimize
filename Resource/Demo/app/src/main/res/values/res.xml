@@ -9,8 +9,6 @@
 
     <color name="icon_color_default">#1fa67a</color>
     <color name="icon_color_1">#afa71a</color>
-    <color name="icon_color_2">#af17aa</color>
-
     <dimen name="icon_size_default">20sp</dimen>
 
 </resources>
