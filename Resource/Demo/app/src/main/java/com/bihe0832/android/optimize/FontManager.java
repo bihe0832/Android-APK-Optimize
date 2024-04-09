@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Typeface;
 
 /**
- * Created by hardyshi on 2017/3/29.
+ * Created by zixie on 2017/3/29.
  */
 
 public class FontManager {
